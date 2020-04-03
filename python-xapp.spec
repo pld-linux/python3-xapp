@@ -6,12 +6,12 @@
 %define		module	xapp
 Summary:	Python bindings for xapps
 Name:		python-%{module}
-Version:	1.6.0
-Release:	2
+Version:	1.8.1
+Release:	1
 License:	LGPL v2+
 Group:		Libraries/Python
 Source0:	https://github.com/linuxmint/python-xapp/archive/%{version}.tar.gz
-# Source0-md5:	1a83abeeeed7f33f10ed31fa5c84a128
+# Source0-md5:	f6a59d8f7177cfb9b89b3097ed176061
 URL:		https://github.com/linuxmint/python-xapp/
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.710
