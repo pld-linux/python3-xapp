@@ -20,7 +20,6 @@ BuildRequires:	python-distribute
 BuildRequires:	python-modules
 %endif
 %if %{with python3}
-BuildRequires:	python3-distribute
 BuildRequires:	python3-modules
 %endif
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
