@@ -7,7 +7,7 @@
 Summary:	Python bindings for xapps
 Name:		python-%{module}
 Version:	1.8.1
-Release:	1
+Release:	2
 License:	LGPL v2+
 Group:		Libraries/Python
 Source0:	https://github.com/linuxmint/python-xapp/archive/%{version}.tar.gz
