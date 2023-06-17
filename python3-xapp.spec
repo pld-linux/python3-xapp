@@ -20,6 +20,7 @@ Requires:	python3-pygobject3 >= 3.0
 # gir modules
 Requires:	gtk+3 >= 3.0
 Requires:	xapps-libs >= 1.0
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
