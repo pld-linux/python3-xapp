@@ -3,7 +3,7 @@ Summary:	Python 3 XApp library
 Summary(pl.UTF-8):	Biblioteka XApp dla Pythona 3
 Name:		python3-%{module}
 Version:	2.4.1
-Release:	1
+Release:	2
 License:	LGPL v2+
 Group:		Libraries/Python
 #Source0Download: https://github.com/linuxmint/python3-xapp/tags
