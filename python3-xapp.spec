@@ -3,7 +3,7 @@ Summary:	Python 3 XApp library
 Summary(pl.UTF-8):	Biblioteka XApp dla Pythona 3
 Name:		python3-%{module}
 Version:	2.4.2
-Release:	1
+Release:	2
 License:	LGPL v2+
 Group:		Libraries/Python
 #Source0Download: https://github.com/linuxmint/python3-xapp/tags
@@ -19,7 +19,7 @@ Requires:	python3-psutil
 Requires:	python3-pygobject3 >= 3.0
 Requires:	python3-xapps-overrides >= 1.0
 # gir modules
-Requires:	xapp-libs >= 1.0
+Requires:	xapps-libs >= 1.0
 Requires:	gtk+3 >= 3.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
